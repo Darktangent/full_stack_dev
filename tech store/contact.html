@@ -1,13 +1,147 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title>Tech Store</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Tech Store: Contact US</title>
+    <!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-<body>
+  <body>
+    <header>
+      <h1>Tech Store</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="contact.html">Contact us</a></li>
 
-</body>
+        </ul>
+      </nav>
+      <input type="search" placeholder="search..">
+
+
+    </header>
+      <aside>
+        <h2>Shop by:</h2>
+        <section>
+          <h3>Category</h3>
+          <hr>
+          <ul>
+            <li>All Items</li>
+            <li>Cameras</li>
+            <li>Laptops</li>
+            <li>Phones</li>
+            <li>Accessories</li>
+            <li>Other</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Price <span>($)</span></h3>
+          <hr />
+          <ul>
+            <li>1-9</li>
+            <li>10-29</li>
+            <li>30-59</li>
+            <li>60-99</li>
+            <li>100+</li>
+          </ul>
+        </section>
+
+
+      </aside>
+      <main>
+        <h2>Contact US:</h2>
+
+        <form action="" method="">
+          <div class="inline"><label for="name">Name:</label> <input type="text" placeholder="Enter your name" id="name" name="name"></div>
+            <div class="inline"> <label for="email">Email:</label> <input type="email" placeholder="Enter valid email" id="email" name="email"></div>
+              <div class="inline"><label for="message">Message:</label> <textarea  id="" cols="30" rows="5" id="message" name="message"></textarea></div>
+
+              <!-- <div>
+              <label for="subject"></label>
+              <select name="" id="subject" >
+              <optgroup label="Product Issues">
+                <option value="returns">Returns</option>
+                <option value="faulty_item">Faulty item</option>
+              </optgroup>
+              <optgroup label="Delivery">
+                <option value="delivery">Delivery Info</option>
+                <option value="order_tracking">Order Tracking</option>
+              </optgroup>
+              <optgroup label="Other">
+                <option value="advice">Advice</option>
+                <option value="other">Other</option>
+              </optgroup>
+              </select>
+            </div> -->
+              <div class="inline">
+                <label for="subject">Subject:</label>
+                <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
+                <datalist id="subjects">
+                <option value="returns">
+                <option value="faulty item">
+                  <option value="delivery">
+                    <option value="order tracking">
+                      <option value="advice">
+                        <option value="other">
+
+              </datalist>
+              </div>
+
+              <div>
+                <p>Subscribe to future offers by:</p>
+                <label for="newsletter">Newsletter</label>
+                <input name="subscribe" type="checkbox" id="newsletter" value="newsletter">
+                <label for="email">Email</label>
+                <input name="subscribe" type="checkbox" id="email" value="email">
+                <label for="post">Post</label>
+                <input type="checkbox" name="subscribe" id="post" value="post">
+            </div>
+
+                <div>
+                  <p>How would you like us to respond?</p>
+                  <label for="phoneResponse">Phone</label>
+                  <input type="radio" id="phoneResponse" name="response" value="phone">
+                  <label for="emailResponse">Phone</label>
+                  <input type="radio" id="emailResponse" name="response" value="email">
+
+              </div>
+                  <div>
+                    <input type="submit">
+                    <input type="reset">
+                    <!-- <button type="submit">Send Feedback</button> -->
+                  </div>
+
+
+        </form>
+        <!-- <form action="">
+          <input type="number">
+          <input type="password">
+
+      </form> -->
+        <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB1dKrwfJtQU1jBh5ZpvhdU4POx1eMhm8M &q=Houston+TX" allowfullscreen width="" height=""></iframe>
+
+
+
+
+      </main>
+      <!-- Footer -->
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+
+          </ul>
+
+        </nav>
+
+      </footer>
+
+  </body>
 
 </html>

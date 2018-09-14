@@ -1,26 +1,116 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Tech Store: Product Detail</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-<body>
-  <main>
-    <h2>All Items:</h2>
+  <body>
+    <header>
+      <h1>Tech Store</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="contact.html">Contact us</a></li>
 
-    <div>
-      <a href="product-detail.html">
+        </ul>
+      </nav>
+      <input type="search" placeholder="search..">
+
+
+  </header>
+      <aside>
+        <h2>Shop by:</h2>
+        <section>
+          <h3>Category</h3>
+          <hr>
+          <ul>
+            <li>All Items</li>
+            <li>Cameras</li>
+            <li>Laptops</li>
+            <li>Phones</li>
+            <li>Accessories</li>
+            <li>Other</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Price <span>($)</span></h3>
+          <hr />
+          <ul>
+            <li>1-9</li>
+            <li>10-29</li>
+            <li>30-59</li>
+            <li>60-99</li>
+            <li>100+</li>
+          </ul>
+        </section>
+
+
+      </aside>
+      <main>
+        <h2>All Items:</h2>
+
+        <div class="product product-detail">
+          <a href="product-detail.html">
         <img src="images/images/controller.jpg" alt="game controller picture">
       </a>
 
-      <p>Game controller&#127918;</p>
-      <p>Price 79.95</p>
-      <p>Awesome Game controller <br> for xbox </p>
-        <a href="product-detail.html">More Info</a>
-        <a href="">Add To Cart</a>
-    </div>
-</body>
+          <p>Game controller&#127918;</p>
+          <p>Price 79.95</p>
+          <p>Awesome Game controller <br> for xbox </p>
+            <a href="product-detail.html">More Info</a>
+            <a href="">Add To Cart</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <table>
+          <caption>
+            Buy in bulk and save
+          </caption>
+          <thead>
+            <tr>
+              <th colspan="2">Quantity</th>
+              <th>1</th>
+              <th>2-3</th>
+              <th>5-10</th>
+              <th>10+</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th colspan="2">Price</th>
+              <td>79.95</td>
+              <td>78.95</td>
+              <td>76.95</td>
+              <td>74.95</td>
+            </tr>
+          </tbody>
+
+        </table>
+
+
+
+
+      </main>
+      <!-- Footer -->
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+
+          </ul>
+
+        </nav>
+
+      </footer>
+
+  </body>
 
 </html>

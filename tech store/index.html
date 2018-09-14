@@ -1,147 +1,152 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title>Tech Store</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tech Store</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-<body>
+  <body>
 
-  <!-- TODO:
+    <!-- TODO:
   1.create the Shop
   2.create styling
 
 
    -->
-  <header>
-    <h1>Tech Store</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="">Shop</a></li>
-        <li><a href="contact.html">Contact us</a></li>
+    <header>
+      <h1>Tech Store</h1>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="contact.html">Contact us</a></li>
 
-      </ul>
-    </nav>
+        </ul>
+      </nav>
+      <input type="search" placeholder="search..">
 
 
   </header>
-  <aside>
-    <h2>Shop by:</h2>
-    <section>
-      <h3>Category</h3>
-      <hr>
-      <ul>
-        <li>All Items</li>
-        <li>Cameras</li>
-        <li>Laptops</li>
-        <li>Phones</li>
-        <li>Accessories</li>
-        <li>Other</li>
-      </ul>
-    </section>
-    <section>
-      <h3>Price <span>($)</span></h3>
-      <hr />
-      <ul>
-        <li>1-9</li>
-        <li>10-29</li>
-        <li>30-59</li>
-        <li>60-99</li>
-        <li>100+</li>
-      </ul>
-    </section>
+      <aside>
+        <h2>Shop by:</h2>
+        <section>
+          <h3>Category</h3>
+          <hr>
+          <ul>
+            <li>All Items</li>
+            <li>Cameras</li>
+            <li>Laptops</li>
+            <li>Phones</li>
+            <li>Accessories</li>
+            <li>Other</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Price <span>($)</span></h3>
+          <hr />
+          <ul>
+            <li>1-9</li>
+            <li>10-29</li>
+            <li>30-59</li>
+            <li>60-99</li>
+            <li>100+</li>
+          </ul>
+        </section>
 
 
-  </aside>
-  <!--Main content area to display products -->
-  <main>
-    <h2>All Items:</h2>
+      </aside>
+      <!--Main content area to display products -->
+      <main>
+        <h2>All Items:</h2>
 
-    <div>
-      <a href="product-detail.html">
+        <div class="product">
+          <a href="product-detail.html">
         <img src="images/images/controller.jpg" alt="game controller picture">
       </a>
 
-      <p><a href="product-detail.html">Game controller</a>&#127918;</p>
-      <p>Price 79.95</p>
-      <p>Awesome Game controller <br> for xbox </p>
-        <a href="product-detail.html">More Info</a>
-        <a href="">Add To Cart</a>
-    </div>
-    <div>
+          <p><a href="product-detail.html">Game controller</a>&#127918;</p>
+          <p>Price 79.95</p>
+          <p>Awesome Game controller <br> for xbox </p>
+            <a class="button" href="product-detail.html">More Info</a>
+            <a href="" class="button">Add To Cart</a>
+        </div>
+        <div class="product">
 
-      <img src="images/images/headphones.jpg" alt="white headphones picture">
-
-
-      <p><a href="product-detail.html">White Headphones</a></p>
-      <p>Price 54.95</p>
-      <p>Awesome white <br> headphones</p>
-        <a href="product-detail.html">More Info</a>
-        <a href="">Add To Cart</a>
-    </div>
-    <div>
-
-      <img src="images/images/camera.jpg" alt="Cannon camera picture">
+          <img src="images/images/headphones.jpg" alt="white headphones picture">
 
 
-      <p><a href="product-detail.html">Cannon Camera</a></p>
-      <p>Price 79.95</p>
-      <p>Awesome Camera <br> by Cannon</p>
-        <a href="product-detail.html">More Info</a>
-        <a href="">Add To Cart</a>
-    </div>
-    <div>
+          <p><a href="product-detail.html">White Headphones</a></p>
+          <p>Price 54.95</p>
+          <p>Awesome white <br> headphones</p>
+            <a href="product-detail.html" class="button">More Info</a>
+            <a href="" class="button">Add To Cart</a>
+        </div>
+        <div class="product">
 
-      <img src="images/images/microphone.jpg" alt="Yeti microphone picture">
-
-
-      <p><a href="product-detail.html">Microphone</a></p>
-      <p>Price 119.95</p>
-      <p>Awesome Blue <br> Yeti Microphone</p>
-        <a href="product-detail.html">More Info</a>
-        <a href="">Add To Cart</a>
-    </div>
-    <div>
-
-      <img src="images/images/cables.jpg" alt="cables picture">
+          <img src="images/images/camera.jpg" alt="Cannon camera picture">
 
 
-      <p><a href="product-detail.html">Cables</a></p>
-      <p>Price 10.95</p>
-      <p>Awesome cables available <br> in different lengths</p>
-        <a href="product-detail.html">More Info</a>
-        <a href="">Add To Cart</a>
-    </div>
-    <div>
+          <p><a href="product-detail.html">Cannon Camera</a></p>
+          <p>Price 79.95</p>
+          <p>Awesome Camera <br> by Cannon</p>
+            <a href="product-detail.html" class="button">More Info</a>
+            <a href="" class="button" id="position">Add To Cart</a>
+        </div>
+        <div class="product">
 
-      <img src="images/images/lenses.jpg" alt="lenses picture">
-
-
-      <p><a href="product-detail.html">Camera lenses</a></p>
-      <p>Price 99.95</p>
-      <p>Awesome camera(Cannon models &lt;2017) <br> lenses</p>
-        <a href="product-detail.html">More Info</a>
-        <a href="">Add To Cart</a>
-    </div>
-  </main>
-
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="">Shop</a></li>
-        <li><a href="contact.html">Contact us</a></li>
-
-      </ul>
-
-    </nav>
-
-  </footer>
+          <img src="images/images/cables.jpg" alt="cables picture">
 
 
+          <p><a href="product-detail.html">Cables</a></p>
+          <p>Price 10.95</p>
+          <p>Awesome cables available <br> in different lengths</p>
+            <a href="product-detail.html" class="button">More Info</a>
+            <a href="" class="button">Add To Cart</a>
+        </div>
+        <div class="product">
 
-</body>
+          <img src="images/images/cables.jpg" alt="cables picture">
+
+
+          <p><a href="product-detail.html">Cables</a></p>
+          <p>Price 10.95</p>
+          <p>Awesome cables available <br> in different lengths</p>
+            <a href="product-detail.html" class="button">More Info</a>
+            <a href="" class="button">Add To Cart</a>
+        </div>
+        <div class="product">
+
+          <img src="images/images/lenses.jpg" alt="lenses picture">
+
+
+          <p><a href="product-detail.html">Camera lenses</a></p>
+          <p>Price 99.95</p>
+          <p>Awesome camera(Cannon models &lt;2017) <br> lenses</p>
+            <a href="product-detail.html" class="button">More Info</a>
+            <a href="" class="button">Add To Cart</a>
+        </div>
+      </main>
+
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+
+          </ul>
+
+        </nav>
+
+      </footer>
+
+
+
+  </body>
 
 </html>
